@@ -1,0 +1,37 @@
+{
+  "name": "node-ws-als",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing AsyncLocalStorage with Socket.IO",
+  "scripts": {
+    "start": "node ./serve-client.js & nodemon ./server.js"
+  },
+  "author": {
+    "name": "Peter Dyumin",
+    "url": "https://github.com/peterdee"
+  },
+  "engines": {
+    "node": ">=16.2.0",
+    "npm": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterdee/node-ws-als"
+  },
+  "keywords": [
+    "AsyncLocalStorage",
+    "Node",
+    "Socket.IO"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/peterdee/node-ws-als",
+  "dependencies": {
+    "cuid": "^2.1.8",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
